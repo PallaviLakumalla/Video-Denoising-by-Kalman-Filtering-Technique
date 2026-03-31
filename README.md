@@ -1,13 +1,13 @@
 # Video-Denoising-by-Kalman-Filtering-Technique
 Description - Video denoising using Kalman and Wiener filters with PSNR, SSIM and MSE evaluation in MATLAB
 
-📌 Introduction
+# Introduction
 
 Video denoising is a fundamental problem in digital signal and image processing. Video signals are often degraded by noise during acquisition, transmission, or compression. This noise reduces visual quality and affects further processing tasks such as object detection, tracking, and recognition.
 
 Traditional filtering methods such as Wiener filtering are effective for reducing Gaussian noise but fail to preserve temporal consistency across video frames. This project focuses on implementing and analyzing **Kalman filtering**, a recursive estimation technique that utilizes both spatial and temporal information for improved video denoising.
 
-🎯 Objectives
+# Objectives
 
 * To simulate noisy video conditions by adding noise to input video sequences
 * To implement Wiener filtering for spatial noise reduction
@@ -20,7 +20,7 @@ Traditional filtering methods such as Wiener filtering are effective for reducin
 * To compare the effectiveness of Wiener and Kalman filters
 
 
-❗ Problem Statement
+# Problem Statement
 
 Video denoising is challenging due to the presence of noise and the dynamic nature of video sequences.
 
@@ -38,9 +38,9 @@ To overcome these limitations, the Kalman filter is used as a recursive estimato
 
 
 
-⚙️ Methodology
+# Methodology
 
-🔹 System Design
+# System Design
 
 The system performs denoising using both spatial and temporal filtering techniques:
 
@@ -73,19 +73,19 @@ The system performs denoising using both spatial and temporal filtering techniqu
 * Exploits temporal correlation between frames
 * Preserves motion and fine details
 
-4. **Performance Evaluation**
+ **Performance Evaluation**
    Metrics used:
 
    * **MSE (Mean Squared Error)** → Lower is better
    * **PSNR (Peak Signal-to-Noise Ratio)** → Higher is better
    * **SSIM (Structural Similarity Index)** → Closer to 1 is better
 
-5. **Output Generation**
+ **Output Generation**
 
    * Frame-by-frame comparison is displayed
    * Output video is generated with annotations
 
-🧠 Kalman Filter Working Principle
+# Kalman Filter Working Principle
 
 The Kalman filter operates in two steps:
 
@@ -102,9 +102,9 @@ This recursive approach allows the filter to adapt dynamically and improve estim
 
 ---
 
-# 📊 Results
+#  Results
 
-### 🔹 Experiment 1 (50 Frames)
+### 🔹 Experiment 1 (50 Frames) 
 
 | Filter        | PSNR (dB) | SSIM   | MSE      |
 | ------------- | --------- | ------ | -------- |
@@ -139,11 +139,9 @@ This recursive approach allows the filter to adapt dynamically and improve estim
 * Produces smoother and more visually accurate results
 * Maintains temporal consistency across frames
 
----
 
-# 📁 Project Structure
+#  Project Structure
 
-```
 video-denoising-kalman-filter/
 │
 ├── code/        # MATLAB implementation
@@ -153,24 +151,17 @@ video-denoising-kalman-filter/
 ├── report/      # Mini project report
 ├── README.md
 └── LICENSE
-```
 
----
-
-## ▶️ How to Run
+##  How to Run
 
 1. Open MATLAB
 2. Navigate to the project folder
 3. Place input video (e.g., `moon.avi`) in the correct directory
 4. Run:
 
-```
-main.m
-```
+# main.m
 
 5. Enter number of frames to process
-
----
 
 ## 💡 Applications
 
@@ -180,26 +171,24 @@ main.m
 * Video streaming and conferencing
 * Autonomous navigation systems
 
----
 
-## ⚖️ Advantages and Limitations
+##  Advantages and Limitations
 
-### ✅ Advantages of Kalman Filter
+###  Advantages of Kalman Filter
 
 * Utilizes temporal information
 * Adaptive and dynamic
 * Preserves motion and edges
 * Suitable for real-time applications
 
-### ❌ Limitations
+###  Limitations
 
 * Requires proper tuning of parameters (Q and R)
 * Computationally more complex than Wiener filter
 * Assumes linear system behavior
 
----
 
-## 🏆 Conclusion
+##  Conclusion
 
 This project demonstrates that:
 
@@ -211,7 +200,7 @@ Thus, **Kalman filtering is a more reliable and efficient technique for video de
 
 ---
 
-## 📚 References
+##  References
 
 1. Kavitha, L. S. M. C. – Kalman Filtering Technique for Video Denoising
 2. IEEE Transactions on Signal Processing
@@ -219,7 +208,7 @@ Thus, **Kalman filtering is a more reliable and efficient technique for video de
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Lakumalla Pallavi**
 M.Tech – Systems and Signal Processing
