@@ -41,7 +41,8 @@ To overcome these limitations, the Kalman filter is used as a recursive estimato
 # Methodology
 
 # System Design
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/4a2522b6-dbad-4b02-a91b-196c3aa4fb1b" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/cabbe348-70da-4178-8106-8fa5af790f35" />
+
 
 
 The system performs denoising using both spatial and temporal filtering techniques:
